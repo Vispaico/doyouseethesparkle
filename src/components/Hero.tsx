@@ -7,7 +7,7 @@ const Hero: React.FC = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://d64gsuwffb70l.cloudfront.net/68b7f8650ec342353cbb04be_1756887184170_b84eeae6.webp"
+          src="/sparkle_hero.webp"
           alt="Serene nature background with morning light"
           className="w-full h-full object-cover"
         />
@@ -16,10 +16,8 @@ const Hero: React.FC = () => {
 
       {/* Floating Sparkle Elements */}
       <div className="absolute inset-0 z-10">
-        <Sparkles className="absolute top-1/4 left-1/4 text-yellow-300 w-6 h-6 animate-pulse" />
-        <Star className="absolute top-1/3 right-1/3 text-yellow-200 w-4 h-4 animate-bounce" />
-        <Heart className="absolute bottom-1/3 left-1/5 text-pink-200 w-5 h-5 animate-pulse" />
-        <Sparkles className="absolute bottom-1/4 right-1/4 text-yellow-300 w-5 h-5 animate-bounce" />
+        <Sparkles className="absolute bottom-2/3 left-1/4 text-yellow-300 w-9 h-9 animate-pulse" />
+        <Heart className="absolute bottom-2/3 right-1/4 text-pink-200 w-9 h-9 animate-pulse" />
       </div>
 
       {/* Content */}

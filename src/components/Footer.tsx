@@ -8,24 +8,20 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <div className="flex items-center mb-4">
-              <Sparkles className="w-8 h-8 text-yellow-400 mr-2" />
-              <h3 className="text-2xl font-bold">Do You See The Sparkle</h3>
+            <div className="mb-4">
+              <img src="/Do You See The Sparkle Logo footer.png" alt="Do You See The Sparkle Logo" className="w-auto" />
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Empowering adults 45+ to rediscover their sparkle through wellness, mindfulness, and personal growth.
+              Rediscover your spark through wellness and mindfulness, for everyone 45 and up.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-yellow-400 transition-colors">
+              <a href="https://www.facebook.com/profile.php?id=61580379446134" className="text-gray-400 hover:text-yellow-400 transition-colors">
                 <Facebook className="w-6 h-6" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-yellow-400 transition-colors">
+              <a href="https://www.instagram.com/do_you_see_the_sparkle/" className="text-gray-400 hover:text-yellow-400 transition-colors">
                 <Instagram className="w-6 h-6" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-yellow-400 transition-colors">
-                <Twitter className="w-6 h-6" />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-yellow-400 transition-colors">
+              <a href="https://www.youtube.com/channel/UCqIU_TDiBAplqmWJbacWnhg" className="text-gray-400 hover:text-yellow-400 transition-colors">
                 <Youtube className="w-6 h-6" />
               </a>
             </div>
@@ -39,7 +35,6 @@ const Footer: React.FC = () => {
               <li><a href="#articles" className="text-gray-300 hover:text-white transition-colors">Articles</a></li>
               <li><a href="#shop" className="text-gray-300 hover:text-white transition-colors">Shop</a></li>
               <li><a href="#about" className="text-gray-300 hover:text-white transition-colors">About</a></li>
-              <li><a href="#contact" className="text-gray-300 hover:text-white transition-colors">Contact</a></li>
             </ul>
           </div>
 
@@ -51,7 +46,6 @@ const Footer: React.FC = () => {
               <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Nutrition</a></li>
               <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Mindfulness</a></li>
               <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Relationships</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Personal Growth</a></li>
             </ul>
           </div>
 
@@ -79,12 +73,12 @@ const Footer: React.FC = () => {
         <div className="border-t border-gray-700 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-400 text-sm">
-              © 2024 Do You See The Sparkle. All rights reserved.
+              © {new Date().getFullYear()} Do You See The Sparkle | doyouseethesparkle.com. All rights reserved.
             </div>
             <div className="flex space-x-6 mt-4 md:mt-0">
-              <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Privacy Policy</a>
-              <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Terms of Service</a>
-              <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Cookie Policy</a>
+              <a href="/privacy-policy" className="text-gray-400 hover:text-white text-sm transition-colors">Privacy Policy</a>
+              <a href="/terms-of-service" className="text-gray-400 hover:text-white text-sm transition-colors">Terms of Service</a>
+              <a href="/cookie-policy" className="text-gray-400 hover:text-white text-sm transition-colors">Cookie Policy</a>
             </div>
           </div>
         </div>

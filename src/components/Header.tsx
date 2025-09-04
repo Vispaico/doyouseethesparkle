@@ -94,7 +94,7 @@ const Header: React.FC = () => {
             <a href="#shop" className="block px-3 py-2 text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700">
               Shop
             </a>
-            <a href="#about" className="block px-3 py-2 text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700">
+            <a href="#about" className="block px-3 py-2 text-base font-medium text-gray-300 hover:text-white hover.bg-gray-700">
               About
             </a>
           </div>
